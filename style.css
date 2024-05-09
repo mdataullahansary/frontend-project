@@ -205,9 +205,26 @@ align-items: flex-end;
     justify-content: center;
 }
 .footer-two {
-    height: 400px;
+    height: 340px;
     background-color: #0f1111;
+    display: flex;
+    justify-content: space-evenly;
 }
+.footer-two p {
+   margin-top: 15px;
+   font-size: 0.85rem;
+   font-weight: normal;
+}
+
+.page-link {
+    color: white;
+    padding-top: 30px;
+    font-weight: 700;
+}
+.footer-head {
+    font-size: 1.05rem;
+}
+
 
 .footer-three {
     height: 75px;
